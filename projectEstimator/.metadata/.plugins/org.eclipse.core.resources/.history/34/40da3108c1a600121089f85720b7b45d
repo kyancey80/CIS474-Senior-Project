@@ -1,0 +1,60 @@
+package poolsHotTubsSpas;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+import javax.swing.JApplet;
+import javax.swing.SwingUtilities;
+
+public class ProjectEstimator extends JApplet
+{
+	public void init()
+	{
+		try {
+			SwingUtilities.invokeAndWait(new Runnable() {
+				public void run() {
+					CourseProject();
+				}
+			});
+		} catch (Exception e) {
+			System.err.println("createGUI did not complete successfully");
+		}
+	}
+	
+	public void start() {
+	
+	}
+	
+	public void stop () {
+		
+	}
+	
+	public void destroy() {
+		
+	}
+	
+
+	private void CourseProject()
+	{
+		setName("Water Works Project Estimator");
+		JTabbedPane tabs = new JTabbedPane();
+		getContentPane().add(tabs);
+		
+		JPanel mainPanel = new JPanel();
+		tabs.addTab("Pools", new Pools());
+		tabs.addTab("Hot Tubs", new HotTubs());
+		getContentPane().add(tabs);
+		setSize(300, 300);
+		setVisible(true);
+		
+	}
+
+	
+	public static void main(String[] args) 
+	{
+		CourseProject exit = new CourseProject();
+		exit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
+	}
+
+}

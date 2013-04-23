@@ -1,0 +1,4 @@
+#Wed Apr 17 13:21:56 EDT 2013
+__DEFAULT__=false
+org.eclipse.help.ui.localSearch.master=true
+expression=create jnlp
