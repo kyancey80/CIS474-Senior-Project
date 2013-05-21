@@ -1,0 +1,30 @@
+The customer requests a quote on a hot tub with the following dimensions:
+Tub Length: 5 feet 
+Tub Width: 5 feet 
+Tub Depth: 4 feet 
+Tub Volume:  7,853.98 cubic feet 
+The customer requests a quote on a hot tub with the following dimensions:
+Tub Length: 8 feet 
+Tub Width: 8 feet 
+Tub Depth: 5 feet 
+Tub Volume:  64,339.82 cubic feet 
+The customer requests a quote on a hot tub with the following dimensions:
+Tub Length: 8 feet 
+Tub Width: 6 feet 
+Tub Depth: 4 feet 
+Tub Volume:  28,952.92 cubic feet 
+The customer requests a quote on a pool with the following dimensions:
+Pool Length: 12 feet 
+Pool Width: 8 feet 
+Pool Depth: 7 feet 
+Pool Volume:  672 cubic feet 
+The customer requests a quote on a pool with the following dimensions:
+Pool Length: 15 feet 
+Pool Width: 8 feet 
+Pool Depth: 6 feet 
+Pool Volume:  720 cubic feet 
+The customer requests a quote on a hot tub with the following dimensions:
+Tub Length: 10 feet 
+Tub Width: 6 feet 
+Tub Depth: 4 feet 
+Tub Volume:  45,238.93 cubic feet 
