@@ -1,0 +1,851 @@
+@charset "utf-8";
+/* Master Css */
+
+#body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFF;
+	margin: 0px
+!important;
+	padding: 0px;
+}
+
+.spacer {
+	clear: both;
+	font-size: 1px;
+}
+/* ----------------------------------------------------------------------------Header & Footer Page CSS Start-------------------------------------------------------------------------------*/
+.general-wrapper {
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+	margin: 0px;
+}
+#header-wrapper {
+	margin: 0px auto;
+	width: 1600px;
+}
+#header-logo-container {
+	float: left;
+	width: 306px;
+	height: 124px;
+	margin-top: 24px;
+	margin-left: 130px;
+}
+#ww-logo{
+	position: absolute;
+	width: 306px;
+	height: 124px;
+	background-image: url(../Images/Waterworks%20logo.png);
+}
+
+#menu-container {
+	float: left;
+	width: 1000px;
+	margin-top: 105px;
+	margin-left: 60px;
+}
+
+#main-menu {
+	float: left;
+	list-style: none;
+	margin: 15px 0px 10px 0px;
+	padding: 0;
+	height: 14px;
+}
+#main-menu li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-right: 40px;
+	line-height: 14px;
+	font-weight: bold;
+}
+
+
+#main-menu li a {
+	float: left;
+	margin-top: 1px;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 12px;
+	display: inline-block;
+	color: #1888C8;
+}
+
+#main-menu li:hover a {
+	color: #0CF
+}
+
+#main-menu-home {
+	width: 69px;
+	height: 13px;
+	background-image: url(Images/workforce.jpg);
+}
+#main-menu-EL {
+	width: 170px;
+	height: 13px;
+	background-image: url(Images/env.jpg);
+}
+#main-menu-OO {
+	width: 181px;
+	height: 13px;
+	background-image: url(Images/operational%20op.jpg);
+}
+#main-menu-FR {
+	height: 13px;
+	width: 132px;
+	background-image: url(Images/fiscal.jpg);
+}
+#main-menu-CC {
+	height: 13px;
+	width: 169px;
+	background-image: url(Images/Customers.jpg);
+}
+
+#search-wrapper {
+	float: right;
+	height: 18px;
+	margin: 12px 0px 6px 0px;
+	margin-right: 320px;
+}
+#search-right {
+	float: left;
+	width: 9px;
+	height: 18px;
+	background-image: url(../Images/search-right.png);
+}
+
+#search-left {
+	float: left;
+	width: 19px;
+	height: 18px;
+	background-image: url(../Images/search-left.png);
+}
+#search-wrapper form {
+	float: left;
+}
+#search-field {
+	float: left;
+	height: 18px;
+	border: none;
+	background-image: url(../Images/search-field-bg.png);
+	background-color: transparent;
+	color: #ffffff;
+	font-size: 10px;
+	padding: 0px 5px 0px 5px;
+	;
+	line-height: 18px;
+	outline: none;
+}
+#footer-wrapper {
+	margin: 0px auto;
+	width: 972px;
+	height: 80px;
+	border-top: solid 1px #1888C8;	
+}
+
+#footer-menu-wrapper {
+	float: right;
+	margin-top: 20px;
+}
+#footer-menu-wrapper a.footer-link {
+	line-height: 16px;
+	color: #003C64;
+	font-size: 10px;
+	margin: 0px 8px;
+	float: left;
+	text-decoration: none;
+	position: inherit;
+	background: none;
+}
+#footer-menu-wrapper:hover a.footer-link{
+	color:#09F
+}
+#footer-about-events-wrapper {
+	float: left;
+	width: 700px;
+	height: 30px;
+	padding-top: 13px;
+}
+.expandable-div {
+	float: left;
+	border-top: solid 1px #e1ee1;
+
+}
+.expandable-div-footer {
+	border: none;
+	width: 90px;
+}
+
+.expandable-div a.aboutus-button {
+	float: left;
+	width: 88px;
+	display: block;
+	height: 30px;
+	background-repeat: no-repeat;
+	color: #003C64;
+	font-size: 10px;
+	line-height: 30px;
+	text-decoration: none;
+	padding-left: 22px;
+	font-weight: bold;
+}
+.expandable-div-footer:hover a.aboutus-button {
+	color:#09F
+}
+
+/* ----------------------------------------------------------------------------Header & Footer Page CSS End-------------------------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------------------Featured projects Bar Css --------------------------------------------*/
+
+
+#breadcrumb {
+	height: 29px;
+	line-height: 29px;
+	width: 972px;
+	/* [disabled]margin: 0px auto; */
+	margin-left: 228px;
+	margin-right: 248px;
+	font-size: 12px;
+	color: #fff;
+	font-weight: bold;
+}
+#breadcrumb a {
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+#breadcrumb-wrapper {
+	width: 100%;
+	height: 29px;
+	line-height: 5px;
+	color: #0086c5;
+	font-size: 12px;
+	border-top: solid 1px #e1e1e1;
+	border-bottom: solid 1px #e1e1e1;
+	margin-top: 5px;
+	background-color: #1888C8;
+}
+
+/* ----------------------------------------------------------------------------Featured projects Bar Css --------------------------------------------*/
+
+
+
+/* ----------------------------------------------------------------------------Home Page CSS Start------------------------------------------------------------------------------*/
+.Homecontent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+.HomeContent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+#HomeCentered-content {
+	margin: 0px auto;
+	width: 972px;
+	overflow: visible;
+}
+
+#portfolio-area {
+	height: 332px;
+	overflow: hidden;
+	width: 1600px;
+	margin-bottom: 60px;
+	margin-left: 15px;
+}
+#portfolio-image {
+	height: 332px;
+	overflow: hidden;
+	position: relative;
+	width: 1600px;
+}
+#portfolio-image .items{
+	height: 332px;
+	position: absolute;
+
+}
+#portfolio-image .items .thumbs-container{
+	float: left;
+	height: 332px;
+
+}
+#portfolio-image .items .thumbs-container .project-container {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	width: 302px;
+	height: 294px;
+}
+
+/* ----------------------------------------------------------------------------Home Page CSS End-------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------Portfolio Page CSS Start------------------------------------------------------------------------*/
+
+.PortfolioContent-wrapper {
+	position: absolute;
+	width: 117%;
+	left: 1px;
+	top: 158px;
+}
+
+.Portfolio {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-right: 18px;
+	border: 1px solid #1888C8;
+}
+#top-row {
+	height: 150px;
+	margin-top: 15px;
+	width: 100%;
+	border: 1px solid
+#;
+	margin-left: 18px;
+}
+#center-row {
+	height: 150px;
+	width: 100%;
+	margin-top: 34px;
+	margin-left: 18px;
+}
+#bottom-row {
+	margin-top: 34px;
+	margin-left: 18px;
+	height: 150px;
+	width: 100%;
+}
+
+#Portfolio-Content {
+	height: 100%;
+	line-height: 100%;
+	/* [disabled]margin: 0px auto; */
+	/* [disabled]margin-left: 100px; */
+	float: left;
+	width: 230px;
+}
+#Portfolio-top {
+	border: 1px solid #1888C8;
+	margin-top: 8px;
+}
+
+#top-content {
+	float: left;
+	width: 800px;
+	height: 550px;
+	border: 1px solid;
+	margin-left: 50px;
+	margin-top: 8px;
+}
+
+#Portfolio-Content p {
+	padding-left: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+#Portfolio-Content h1 {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-bottom: 2px;
+	text-align: left;
+	margin-top: 8px;
+	margin-right: 94px;
+	padding-top: 2px;
+}
+#Portfolio-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 40px;
+	list-style: none;
+	margin-left: 221px;
+}
+/* ----------------------------------------------------------------------------Portfolio Page CSS End--------------------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------------------Project Estimator Page CSS Start--------------------------------------------------------------------------*/
+.PEcontent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+#PE {
+	width: 350px;
+	height: 350px;
+	float: left;
+	/* [disabled]margin-right: 18px; */
+	/* [disabled]border: 1px solid #1888C8; */
+}
+#PE h1 {
+	margin-left: 110px;
+	font-size: 16px;
+}
+#PE p {
+	margin-left: 70px;
+	color: #900;
+}
+
+#PE-Content {
+	height: 350px;
+	margin-top: 5px;
+	width: 350px;
+	border: 1px solid#;
+	margin-left: 130px;
+}
+#Guide {
+	float: left;
+	margin-left: 120px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	border: solid 1px;
+}
+#FAQ-Wrapper {
+	float: left;
+	margin-left: 130px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	border: solid 1px;
+}
+#FAQ-Wrapper h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+#PE-Wrapper {
+	float: left;
+	width: 530px;
+	height: 350px;
+	/* [disabled]border: 1px solid; */
+	margin-left: 50px;
+	margin-top: 8px;
+}
+#Guide h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+
+#Title p {
+	padding-left: 8px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+#Title h1 {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	padding-left: 8px;
+	padding-bottom: 2px;
+	text-align: left;
+	margin-top: 8px;
+	margin-right: 94px;
+	padding-top: 2px;
+}
+#Title-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	/* [disabled]margin-left: 221px; */
+}
+#PE applet {
+	margin-left: 25px;
+	border: 1px solid #1888C8;
+}
+
+
+/* ----------------------------------------------------------------------------Project Estimator Page CSS End--------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------Customer Account Page CSS Start--------------------------------------------------------------------------*/
+.CAcontent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+#Cust-login {
+	width: 350px;
+	height: 250px;
+	float: left;
+	/* [disabled]margin-right: 18px; */
+	border: 1px solid #1888C8;
+	line-height: .2;
+}
+#Cust-login h1 {
+	margin-left: 110px;
+	font-size: 16px;
+}
+#Cust-login p {
+	margin-left: 75px;
+	color: #900;
+	font-size: 12px;
+}
+
+
+#Inner-Content {
+	height: 250px;
+	margin-top: 5px;
+	width: 350px;
+	border: 1px solid#;
+	margin-left: 132px;
+}
+
+#Content-Left {
+	float: left;
+	margin-left: 120px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	/* [disabled]border: solid 1px; */
+}
+#right-content {
+	float: left;
+	margin-left: 130px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	/* [disabled]border: solid 1px; */
+}
+#right-content h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+
+#Center-content {
+	float: left;
+	width: 530px;
+	height: 300px;
+	/* [disabled]border: 1px solid; */
+	margin-left: 50px;
+	margin-top: 13px;
+}
+#Content-Left h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+#CustomerAccount-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	/* [disabled]margin-left: 221px; */
+}
+
+
+
+/* ----------------------------------------------------------------------------Customer Account Page CSS End--------------------------------------------------------------------------*/
+
+
+
+
+/* ----------------------------------------------------------------------------Employee Login Page CSS Start--------------------------------------------------------------------------*/
+
+.Empcontent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+#Emp-login {
+	width: 350px;
+	height: 250px;
+	float: left;
+	/* [disabled]margin-right: 18px; */
+	border: 1px solid #1888C8;
+}
+#Emp-login h1 {
+	margin-left: 110px;
+	font-size: 16px;
+}
+#Emp-login p {
+	margin-left: 90px;
+	color: #900;
+}
+
+
+#Emp-Content {
+	height: 250px;
+	margin-top: 5px;
+	width: 350px;
+	border: 1px solid#;
+	margin-left: 132px;
+}
+
+#EmpContent-Left {
+	float: left;
+	margin-left: 120px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	/* [disabled]border: solid 1px; */
+}
+#Emp-right {
+	float: left;
+	margin-left: 130px;
+	margin-top: 8px;
+	width: 325px;
+	height: 300px;
+	/* [disabled]border: solid 1px; */
+}
+#Emp-right h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+#EmpMiddle-Wrapper {
+	float: left;
+	width: 530px;
+	height: 300px;
+	/* [disabled]border: 1px solid; */
+	margin-left: 50px;
+	margin-top: 8px;
+}
+#EmpContent-Left h1 {
+	margin-left: 140px;
+	font-size: 16px;
+	color: #1888C8;
+}
+
+#Employee-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	/* [disabled]margin-left: 221px; */
+}
+
+
+/* ----------------------------------------------------------------------------Employee Login Page CSS End--------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------SiteMap Page CSS Start--------------------------------------------------------------------------*/
+
+.SiteMapContent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+#Sitemap-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	/* [disabled]margin-left: 221px; */
+}
+#Sitemap-content {
+	height: 400px;
+	width: 1500px;
+	margin-left: 40px;
+}
+#InnerSitemap-Content {
+	width: 500px;
+	height: 400px;
+	background-image: url(../Images/SiteMap.png);
+	margin-left: 450px;
+}
+
+
+/* ----------------------------------------------------------------------------SiteMap Page CSS End--------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------Contact Page CSS Start--------------------------------------------------------------------------*/
+
+.ContactContent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+
+#Contact-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	/* [disabled]margin-left: 221px; */
+}
+#Contact-content {
+	height: 500px;
+	width: 1500px;
+	margin-left: 40px;
+}
+
+#ContactInner-Content{
+	width: 750px;
+	height: 80px;
+	/* [disabled]border: 1px solid; */
+	margin-left: 370px;
+	margin-top: 20px;
+	/* [disabled]position: center; */
+}
+#Form{
+	margin-left: 370px;
+	width: 500px;
+}
+#ContactInner-Content p {
+	padding: 8px 0 10px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+
+#ContactInner-Content  h2{
+	font-size: 18px;
+	line-height: 1px;
+	text-align: center;
+	/* [disabled]padding-bottom: 19px; */;
+	margin: 56px 0 19px;
+	float: left;
+	width: 100%;
+	background-color: #B4DDF5;
+}
+#ContactInner-Content h2 span {
+	background-color: white;
+	padding: 0 20px;
+}
+
+
+/* ----------------------------------------------------------------------------Contact Page CSS End--------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------About Us Page CSS Start--------------------------------------------------------------------------*/
+
+#AboutUsContent {
+	width: 750px;
+	height: 325px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+#StartingLineup {
+	height: 30px;
+	width: 750px;
+	margin-left: 150px;
+}
+
+#StartingLineup h2{
+	font-size: 18px;
+	line-height: 3px;
+	text-align: center;
+	;
+	width: 100%;
+	background-color: #B4DDF5;
+}
+
+#StartingLineup h2 span {
+	background-color: white;
+	padding: 0 20px;
+}
+
+
+.AboutUsContent-wrapper {
+	position: absolute;
+	width: 100%;
+	left: 1px;
+	top: 158px;
+}
+.Portfolio {
+	width: 240px;
+	height: 157px;
+	float: left;
+	margin-right: 18px;
+	border: 1px solid #1888C8;
+}
+#top-column {
+	height: 200px;
+	width: 300px;
+	border: 1px solid#;
+	margin-left: 400px;
+	margin-top: 55px;
+}
+#center-column {
+	height: 200px;
+	width: 890px;
+	margin-top: 34px;
+	margin-left: 140px;
+}
+#bottom-column {
+	margin-top: 34px;
+	margin-left: 140px;
+	height: 200px;
+	width: 100%;
+}
+#AboutUs-Wrapper {
+	float: left;
+	width: 1060px;
+	height: 1150px;
+	/* [disabled]border: 1px solid; */
+	margin-left: 50px;
+	margin-top: 8px;
+}
+#workforce-wrapper {
+	width: 1500px;
+	height: 100%;
+	line-height: 5px;
+	font-size: 12px;
+	margin-top: 5px;
+	list-style: none;
+	margin-left: 221px;
+}
+
+#AboutUsContent p {
+	padding: 8px 0 10px;
+	font-size: 16px;
+	line-height: 2.0;
+}
+
+#AboutUsContent  h2{
+	font-size: 18px;
+	line-height: 1px;
+	text-align: center;
+	/* [disabled]padding-bottom: 19px; */;
+	margin: 56px 0 19px;
+	float: left;
+	width: 100%;
+	background-color: #B4DDF5;
+}
+#AboutUsContent h2 span {
+	background-color: white;
+	padding: 0 20px;
+}
+
+
+/* ----------------------------------------------------------------------------About Us Page CSS End--------------------------------------------------------------------------*/
