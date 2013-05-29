@@ -135,7 +135,7 @@
 	color: #ffffff;
 	font-size: 10px;
 	padding: 0px 5px 0px 5px;
-	;
+	
 	line-height: 18px;
 	outline: none;
 }
@@ -788,6 +788,7 @@
 	float: left;
 	margin-right: 18px;
 	border: 1px solid #1888C8;
+    margin-top: 0px;
 }
 #top-column {
 	height: 200px;
@@ -836,7 +837,7 @@
 	font-size: 18px;
 	line-height: 1px;
 	text-align: center;
-	/* [disabled]padding-bottom: 19px; */;
+	/* [disabled]padding-bottom: 19px; */
 	margin: 56px 0 19px;
 	float: left;
 	width: 100%;
