@@ -86,7 +86,7 @@
 </a>
 </div>
 <div class="expandable-div expandable-div-footer"> 
-<a href ="#" class="aboutus-button"> Q & A
+<a href ="#" class="aboutus-button"> 
 </a>
 </div>
 

@@ -308,6 +308,7 @@
 	margin-right: 18px;
 	border: 1px solid #1888C8;
 }
+
 #top-row {
 	height: 150px;
 	margin-top: 15px;
@@ -720,8 +721,10 @@
 	/* [disabled]position: center; */
 }
 #Form{
-	margin-left: 370px;
+	margin-left: 123px;
 	width: 500px;
+    height: 30px;
+    margin-bottom: 26px;
 }
 #ContactInner-Content p {
 	padding: 8px 0 10px;
@@ -797,6 +800,18 @@
 	margin-left: 400px;
 	margin-top: 55px;
 }
+
+#top-column li span
+{
+	position: absolute;
+	text-align: center;
+	font-size:14px;
+	color: #FFF;
+	left: 692px;
+	top: 572px;
+
+}
+
 #center-column {
 	height: 200px;
 	width: 890px;
@@ -848,5 +863,12 @@
 	padding: 0 20px;
 }
 
+#top-column li {
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin-right: 18px;
+	border: 1px solid #1888C8;
+}
 
 /* ----------------------------------------------------------------------------About Us Page CSS End--------------------------------------------------------------------------*/
