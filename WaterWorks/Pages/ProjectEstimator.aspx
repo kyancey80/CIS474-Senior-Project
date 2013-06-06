@@ -61,7 +61,7 @@
    <div id = "PE">
    <h1>Project Estimator</h1>
   <applet code="poolsHotTubsSpas.ProjectEstimator" alt="projectEstimator" width="300" height="275" archive="projectEstimator.jar" title="Project Estimator">
-  <param name="permissions" value="sandbox" />
+  
 </applet>
    </div>   
   

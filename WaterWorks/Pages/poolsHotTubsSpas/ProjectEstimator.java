@@ -51,10 +51,11 @@ public class ProjectEstimator extends JApplet {
 		tabs.setForeground(Color.WHITE);
 	}
 
-	
-	/*public static void main(String[] args) { CourseProject exit = new
-	CourseProject(); exit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	 
-	 }*/
-	
+	/*
+	 * public static void main(String[] args) { CourseProject exit = new
+	 * CourseProject(); exit.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	 * 
+	 * }
+	 */
+
 }
