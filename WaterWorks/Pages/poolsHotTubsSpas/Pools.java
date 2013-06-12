@@ -38,6 +38,9 @@ public class Pools extends JPanel {
 	private Statement poolStatement;
 
 	public Pools() {
+		
+		setBackground(Color.WHITE);
+		
 		poolLengthLabel = new JLabel();
 		poolLengthLabel.setText("Enter the pool's length (ft):");
 

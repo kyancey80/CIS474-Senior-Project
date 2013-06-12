@@ -46,6 +46,9 @@ public class HotTubs extends JPanel implements ActionListener,
 	private Statement tubStatement;
 
 	public HotTubs() {
+		
+		setBackground(Color.WHITE);
+		
 		roundTub = new JRadioButton("Round Tub");
 		roundTub.setSelected(false);
 		roundTub.addActionListener(this);
@@ -107,6 +110,7 @@ public class HotTubs extends JPanel implements ActionListener,
 		this.add(tubVolumeField);
 		this.add(saveQuote);
 		this.add(tubError);
+		
 		
 		try {
 			String tubConnectUrl = "jdbc:sqlserver://localhost;instanceName=SQLEXPRESS;integratedSecurity=true;databaseName=WaterWorks;";
