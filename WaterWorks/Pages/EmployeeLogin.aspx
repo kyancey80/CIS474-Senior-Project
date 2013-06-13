@@ -72,7 +72,7 @@
      <div id="Emp-Content">
    <div id = "Emp-login">
    <h1>Employee Login</h1>
-  <p> Please enter your pin below </p>
+  <p> Please enter your Login Credentials Below</p>
        <p> &nbsp;</p>
 
        <asp:Login ID="Login1" runat="server" BackColor="White" BorderColor="#1888C8" 
