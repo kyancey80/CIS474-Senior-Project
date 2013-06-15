@@ -8,6 +8,7 @@
 </head>
 
 <body id="body">
+    <form id="form1" runat="server">
 <div class = "general-wrapper">
 <div id = "header-wrapper" class="nocontent">
 <div id = "header-logo-container"> <a href= "../Pages/HomePage.html" title="HomePage" id="ww-logo" style="display: block;"></a></div>
@@ -15,8 +16,7 @@
 <div id ="search-wrapper">
 <div id ="search-left">
 </div>
-<form action = "/Search" method="get">
-<input type = "text" name="c" id="search-field" value autocomplete="off" style = "width:43px;"> </form>
+<input type = "text" name="c" id="search-field" value autocomplete="off" style = "width:43px;"> 
 <div id = "search-right">
 </div>
 </div>
@@ -54,12 +54,34 @@
 </div>
  <div id="Employee-wrapper">
  <div id= "EmpContent-Left"> <h1>  </h1>
+     <h3>
+         Please Upload Photo</h3>
+     <div>
+         File:
+         <input id="myFile" runat="server" type="file" />
+         <input id="Button1" runat="server" onserverclick="Upload" type="button" 
+             value="Upload" />
+         <asp:Label ID="lblMsg" runat="server" />
+         <br />
+         <asp:Image ID="Pic" runat="server" height="65px" width="56px" />
+         <asp:Image ID="FacePic" runat="server" Height="65px" />
+     </div>
+     <p>  </p>
  </div>
    <div id="EmpMiddle-Wrapper">
      <div id="Emp-Content">
    <div id = "Emp-login">
    <h1>Employee Login</h1>
-  <p> Please enter your pin below </p>
+  <p> Please enter your Login Credentials Below</p>
+       <p> &nbsp;</p>
+
+       <asp:Login ID="Login1" runat="server" BackColor="White" BorderColor="#1888C8" 
+           BorderPadding="5" BorderStyle="Dotted" BorderWidth="2px" 
+           DestinationPageUrl="~/Pages/SecurityLevel1.aspx" DisplayRememberMe="False" 
+           Enabled="False" EnableTheming="False" style="margin-left: 12px" 
+           TitleText="" Width="316px">
+       </asp:Login>
+
    </div>   
   
 </div>
@@ -95,6 +117,8 @@
 </div>
 </div>
 </div>
+
+    </form>
 
 </body>
 </html>
