@@ -7,35 +7,39 @@
 <title>Project Estimator</title>
 
 <link rel="stylesheet" type="text/css" href="../Styles/Master.css"/>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".logo").click(function () {
+            window.location = $(this).find("a").attr("href");
+            return false;
+        });
+
+    });
+</script>
 </head>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
 
 
-<body id="body">
+<body>
 <!-- InstanceBeginEditable name="Editable" -->
-<div class = "general-wrapper">
-  <div id = "header-wrapper" class="nocontent">
-    <div id = "header-logo-container"> <a href= "HomePage.html" title="HomePage" id="ww-logo" style="display: block;"></a></div>
+<header>
+    <div class="logo"><a href= "HomePage.html" title="HomePage" alt="WaterWorks Pool Construction"></a></div>
     <div id = "menu-container">
       <div id ="search-wrapper">
-        <div id ="search-left"></div>
         <form action = "/Search" method="get">
           <input type = "text" name="c" id="search-field" value="value" autocomplete="off" style = "width:43px;" />
         </form>
-        <div id = "search-right"></div>
       </div>
-      <ul id = "main-menu" class ="black-menu" style="min-height: 0px; height: 12px;">
-        <li style="style""width: 73px;"> <a  href= "HomePage.html" title="Home">Home</a> </li>
+      <ul class = "main-menu">
+        <li> <a  href= "HomePage.html" title="Home">Home</a> </li>
         <li> <a  href= "Portfolio.html" title="Portfolio">Portfolio</a> </li>
         <li> <a  href= "ProjectEstimator.aspx" title="Project Estimator">Project Estimator</a> </li>
         <li> <a  href= "CustomerAccount.aspx" title="Customer Account">Customer Account</a> </li>
         <li> <a  href= "EmployeeLogin.aspx" title="Customers &amp; Community">Employee Login</a> </li>
       </ul>
-    </div>
-  </div>
-</div>
+    </div></header>
 <div class="general-wrapper" id="content-general-wrapper">
   <div class ="ContactContent-wrapper">
     <div id="breadcrumb-wrapper">
