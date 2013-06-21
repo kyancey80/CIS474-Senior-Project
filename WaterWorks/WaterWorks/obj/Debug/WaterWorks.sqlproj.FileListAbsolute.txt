@@ -7,3 +7,9 @@ C:\Users\Miss Katrina\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWor
 C:\Users\Miss Katrina\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\refactor.xml
 C:\Users\Miss Katrina\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\postdeploy.sql
 C:\Users\Miss Katrina\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\predeploy.sql
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\bin\Debug\WaterWorks.dacpac
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\bin\Debug\WaterWorks.dll
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\bin\Debug\WaterWorks.pdb
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\WaterWorks.sqlprojResolveAssemblyReference.cache
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\WaterWorks.dll
+C:\Users\Katrina Yancey\Documents\GitHub\CIS474-Senior-Project\WaterWorks\WaterWorks\obj\Debug\WaterWorks.pdb
