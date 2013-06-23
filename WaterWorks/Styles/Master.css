@@ -204,445 +204,119 @@ h6
 
 
 /* ----------------------Home Page-----------------------------*/
-.Homecontent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
+.homepage
+{
+    width: 90%;
+    margin: 3% auto 3% auto;
 }
 
-.HomeContent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
+.homepage ul 
+{
+    list-style: none;
 }
-
-#HomeCentered-content {
-	margin: 0px auto;
-	width: 972px;
-	overflow: visible;
-}
-
-#portfolio-area {
-	height: 332px;
-	overflow: hidden;
-	width: 80%;
-	margin: 0 auto;
-}
-#portfolio-image {
-	height: 332px;
-	overflow: hidden;
-	position: relative;
-
-}
-#portfolio-image .items{
-	height: 332px;
-	position: absolute;
-
-}
-#portfolio-image .items .thumbs-container{
-	float: left;
-	height: 332px;
-
-}
-#portfolio-image .items .thumbs-container .project-container {
-	float: left;
-	margin: 0px 15px 0px 0px;
-	width: 302px;
-	height: 294px;
+.homepage li
+{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
 }
 
 
 
 /* --------------------------Portfolio----------------------------*/
 
-.PortfolioContent-wrapper {
-	position: absolute;
-	width: 117%;
-	left: 1px;
-	top: 158px;
+.Portfolio
+{
+    Float: left;
+    width: 20%;
+    Margin: 3% auto 3% auto;
+    margin-left: 40px;
+    text-align:center;
 }
 
-.Portfolio {
-	width: 200px;
-	height: 150px;
-	float: left;
-	margin-right: 18px;
-	border: 1px solid #1888C8;
+.PortfolioPics
+
+{
+    float: left;
+    width: 60%;
+    margin: 3% auto 3% auto;
+    
 }
 
-#top-row {
-	height: 150px;
-	margin-top: 15px;
-	width: 100%;
-	border: 1px solid
-#;
-	margin-left: 18px;
-}
-#center-row {
-	height: 150px;
-	width: 100%;
-	margin-top: 34px;
-	margin-left: 18px;
-}
-#bottom-row {
-	margin-top: 34px;
-	margin-left: 18px;
-	height: 150px;
-	width: 100%;
+.PortfolioPics ul
+{
+    list-style: none;
+    
 }
 
-#Portfolio-Content {
-	height: 100%;
-	line-height: 100%;
-	/* [disabled]margin: 0px auto; */
-	/* [disabled]margin-left: 100px; */
-	float: left;
-	width: 230px;
+.PortfolioPics li
+{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
 }
-#Portfolio-top {
-	border: 1px solid #1888C8;
-	margin-top: 8px;
-}
-
-#top-content {
-	float: left;
-	width: 800px;
-	height: 550px;
-	border: 1px solid;
-	margin-left: 50px;
-	margin-top: 8px;
-}
-
-#Portfolio-Content p {
-	padding-left: 8px;
-	font-size: 14px;
-	line-height: 20px;
-	color: #000;
-}
-#Portfolio-Content h1 {
-	font-weight: bold;
-	font-size: 14px;
-	color: #000;
-	text-decoration: none;
-	padding-left: 8px;
-	padding-bottom: 2px;
-	text-align: left;
-	margin-top: 8px;
-	margin-right: 94px;
-	padding-top: 2px;
-}
-#Portfolio-wrapper {
-	width: 1500px;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 40px;
-	list-style: none;
-	margin-left: 221px;
-}
-
-
-
-
-
 /* ----------------------------------Project Estimator-----------------------------------------*/
-.PEcontent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
-}
 
-#PE {
-	width: 350px;
-	height: 350px;
-	float: left;
-	/* [disabled]margin-right: 18px; */
-	/* [disabled]border: 1px solid #1888C8; */
+.estimator
+{
+    margin: 3% auto 3% auto;
+    width: 20%;
+    text-align:center;
 }
-#PE h1 {
-	margin-left: 110px;
-	font-size: 16px;
-}
-#PE p {
-	margin-left: 70px;
-	color: #900;
-}
-
-#PE-Content {
-	height: 350px;
-	margin-top: 5px;
-	width: 350px;
-	border: 1px solid#;
-	margin-left: 130px;
-}
-#Guide {
-	float: left;
-	margin-left: 120px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	border: solid 1px;
-}
-#FAQ-Wrapper {
-	float: left;
-	margin-left: 130px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	border: solid 1px;
-}
-#FAQ-Wrapper h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-#PE-Wrapper {
-	float: left;
-	width: 530px;
-	height: 350px;
-	/* [disabled]border: 1px solid; */
-	margin-left: 50px;
-	margin-top: 8px;
-}
-#Guide h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-
-#Title p {
-	padding-left: 8px;
-	font-size: 14px;
-	line-height: 20px;
-	color: #000;
-}
-#Title h1 {
-	font-weight: bold;
-	font-size: 14px;
-	color: #000;
-	text-decoration: none;
-	padding-left: 8px;
-	padding-bottom: 2px;
-	text-align: left;
-	margin-top: 8px;
-	margin-right: 94px;
-	padding-top: 2px;
-}
-#Title-wrapper {
-	width: 1500px;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 5px;
-	list-style: none;
-	/* [disabled]margin-left: 221px; */
-}
-#PE applet {
-	margin-left: 25px;
-	border: 1px solid #1888C8;
-}
-
 
 
 /* ------------------------Customer Account--------------------------------*/
-.CAcontent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
-}
-#Cust-login {
-	width: 350px;
-	height: 250px;
-	float: left;
-	/* [disabled]margin-right: 18px; */
-	border: 1px solid #1888C8;
-	line-height: .2;
-}
-#Cust-login h1 {
-	margin-left: 110px;
-	font-size: 16px;
-}
-#Cust-login p {
-	margin-left: 75px;
-	color: #900;
-	font-size: 12px;
+
+.customer
+{
+    margin: 3% auto 3% auto;
+    width: 20%;
+    text-align: center;
 }
 
-
-#Inner-Content {
-	height: 250px;
-	margin-top: 5px;
-	width: 350px;
-	border: 1px solid#;
-	margin-left: 132px;
+.customer p
+{
+    
+    color: #1888C8;
 }
-
-#Content-Left {
-	float: left;
-	margin-left: 120px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	/* [disabled]border: solid 1px; */
-}
-#right-content {
-	float: left;
-	margin-left: 130px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	/* [disabled]border: solid 1px; */
-}
-#right-content h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-
-#Center-content {
-	float: left;
-	width: 530px;
-	height: 300px;
-	/* [disabled]border: 1px solid; */
-	margin-left: 50px;
-	margin-top: 13px;
-}
-#Content-Left h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-#CustomerAccount-wrapper {
-	width: 1500px;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 5px;
-	list-style: none;
-	/* [disabled]margin-left: 221px; */
-}
-
-
 
 
 /* -----------------------------------Employee Login Page CSS Start--------------------------------------*/
 
-.Empcontent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
+.photo
+{
+    Float: left;
+    width: 20%;
+    Margin: 3% auto 3% auto;
+    text-align:center;
 }
 
-#Emp-login {
-	width: 350px;
-	height: 250px;
-	float: left;
-	/* [disabled]margin-right: 18px; */
-	/*border: 1px solid #1888C8; */
-}
-#Emp-login h1 {
-	margin-left: 110px;
-	font-size: 16px;
-}
-#Emp-login p {
-	margin-left: 60px;
-	color: #900;
+.login
+{
+    text-align: center;
+    width: 60%;
+    margin: 3% auto 3% auto;
+    
 }
 
-
-#Emp-Content {
-	height: 250px;
-	margin-top: 5px;
-	width: 350px;
-	border: 1px solid#;
-	margin-left: 132px;
+.login p
+{
+    color: #1888C8;
 }
-
-#EmpContent-Left {
-	float: left;
-	margin-left: 120px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	/* [disabled]border: solid 1px; */
-}
-#Emp-right {
-	float: left;
-	margin-left: 130px;
-	margin-top: 8px;
-	width: 325px;
-	height: 300px;
-	/* [disabled]border: solid 1px; */
-}
-#Emp-right h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-#EmpMiddle-Wrapper {
-	float: left;
-	width: 530px;
-	height: 300px;
-	/* [disabled]border: 1px solid; */
-	margin-left: 50px;
-	margin-top: 8px;
-}
-#EmpContent-Left h1 {
-	margin-left: 140px;
-	font-size: 16px;
-	color: #1888C8;
-}
-
-#Employee-wrapper {
-	width: 1500px;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 5px;
-	list-style: none;
-	/* [disabled]margin-left: 221px; */
-}
-
 
 /* ---------------------------------SiteMap Page CSS Start----------------------------------*/
 
-.SiteMapContent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
+
+.sitemap
+
+{
+    width: 70%;
+    float:right;
+    margin: 3% auto 3% auto;
 }
 
-#Sitemap-wrapper {
-	width: 100%;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 5px;
-	list-style: none;
-	/* [disabled]margin-left: 221px; */
+.sitemap ul
+{
+    list-style: none;
 }
-#Sitemap-content {
-	height: 400px;
-	margin-left: 40px;
-}
-#InnerSitemap-Content {
-	width: 500px;
-	height: 400px;
-	background-image: url(../Images/SiteMap.png);
-	margin-left: 450px;
-}
-
 
 /* ----------------------------------Contact Page------------------------------------*/
 
@@ -686,122 +360,80 @@ h6
 
 /* ---------------------------------------About Us Page-----------------------------------*/
 
-#AboutUsContent {
-	width: 750px;
-	height: 325px;
-	margin-left: 150px;
-	margin-bottom: 50px;
-}
-#StartingLineup {
-	height: 30px;
-	width: 750px;
-	margin-left: 150px;
-}
-
-#StartingLineup h2{
-	font-size: 18px;
-	line-height: 3px;
-	text-align: center;
-	;
-	width: 100%;
-	background-color: #B4DDF5;
-}
-
-#StartingLineup h2 span {
-	background-color: white;
-	padding: 0 20px;
-}
-
-
-.AboutUsContent-wrapper {
-	position: absolute;
-	width: 100%;
-	left: 1px;
-	top: 158px;
-}
-.Portfolio {
-	width: 240px;
-	height: 157px;
-	float: left;
-	margin-right: 18px;
-	border: 1px solid #1888C8;
-    margin-top: 0px;
-}
-#top-column {
-	height: 200px;
-	width: 300px;
-	border: 1px solid#;
-	margin-left: 400px;
-	margin-top: 55px;
-}
-
-#top-column li span
+.aboutus
 {
-	position: absolute;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 60%;
+	margin-left: 20%;
+	padding: 50px 0 50px 0;
+}
+
+.aboutus p
+{
 	text-align: center;
-	font-size:14px;
-	color: #FFF;
-	left: 692px;
-	top: 572px;
-
 }
-
-#center-column {
-	height: 200px;
-	width: 890px;
-	margin-top: 34px;
-	margin-left: 140px;
-}
-#bottom-column {
-	margin-top: 34px;
-	margin-left: 140px;
-	height: 200px;
-	width: 100%;
-}
-#AboutUs-Wrapper {
-	float: left;
-	width: 1060px;
-	height: 1150px;
-	/* [disabled]border: 1px solid; */
-	margin-left: 50px;
-	margin-top: 8px;
-}
-#workforce-wrapper {
-	width: 1500px;
-	height: 100%;
-	line-height: 5px;
-	font-size: 12px;
-	margin-top: 5px;
-	list-style: none;
-	margin-left: 221px;
-}
-
-#AboutUsContent p {
-	padding: 8px 0 10px;
-	font-size: 16px;
-	line-height: 2.0;
-}
-
-#AboutUsContent  h2{
-	font-size: 18px;
-	line-height: 1px;
+.aboutus hr 
+{
+	padding: 0;
+	border: none;
+	border-top: medium double #B4DDF5;
+	color: #B4DDF5;
 	text-align: center;
-	/* [disabled]padding-bottom: 19px; */
-	margin: 56px 0 19px;
-	float: left;
-	width: 100%;
-	background-color: #B4DDF5;
 }
-#AboutUsContent h2 span {
-	background-color: white;
-	padding: 0 20px;
-}
-
-#top-column li {
-	width: 200px;
-	height: 150px;
-	float: left;
-	margin-right: 18px;
-	border: 1px solid #1888C8;
+.aboutus hr:after 
+{
+	content: "About Us";
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.2em;
+	position: relative;
+	padding: 0 0.25em;
+	top: -0.7em;
+	color: #000;
+	background: #FFF;
 }
 
+.pictures hr 
+{
+	padding: 0;
+	border: none;
+	border-top: medium double #B4DDF5;
+	color: #B4DDF5;
+	text-align: center;
+}
+.pictures hr:after 
+{
+	content: "Our Starting Lineup";
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline-block;
+	font-size: 1.2em;
+	position: relative;
+	padding: 0 0.25em;
+	top: -0.7em;
+	color: #000;
+	background: #FFF;
+}
+
+.pictures
+
+{
+    float: left;
+    width: 100%;
+    margin: 3% auto 3% auto;
+    
+}
+
+.pictures ul
+{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.pictures li
+{
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
