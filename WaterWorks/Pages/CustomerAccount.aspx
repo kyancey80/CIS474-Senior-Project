@@ -6,96 +6,51 @@
 <head id="Head1" runat="server">
  <title>Project Estimator</title>
 <link rel="stylesheet" type="text/css" href="../Styles/Master.css"/>
+<script src="../Scripts/jquery-2.0.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".logo").click(function () {
+            window.location = $(this).find("a").attr("href");
+            return false;
+        });
+
+    });
+</script>
 </head>
 
-<body id="body">
-<div class = "general-wrapper">
-<div id = "header-wrapper" class="nocontent">
-<div id = "header-logo-container"> <a href= "../Pages/HomePage.html" title="HomePage" id="ww-logo" style="display: block;"></a></div>
-<div id = "menu-container">
-<div id ="search-wrapper">
-<div id ="search-left">
-</div>
-<form action = "/Search" method="get">
-<input type = "text" name="c" id="search-field" value autocomplete="off" style = "width:43px;"> </form>
-<div id = "search-right">
-</div>
-</div>
-<ul id = "main-menu" class ="black-menu" style="min-height: 0px; height: 12px;">
+<body>
 
-<li style"width: 73px;">
-<a  href= "../Pages/HomePage.html" Title="Home">Home</a>
-</li>
+<div class="logo"><a href="HomePage.html"></a></div>
+ <div class="main-nav">
+      <div class="search">
+        <form action = "/Search" method="get">
+          <input type = "text" placeholder="Search..." autocomplete="off" />
+        </form>
+      </div>
+      <nav class="main-menu">
+      <ul>
+        <li> <a  href= "HomePage.html" title="Home">Home</a> </li>
+        <li> <a  href= "Portfolio.html" title="Portfolio">Portfolio</a> </li>
+        <li> <a  href= "ProjectEstimator.aspx" title="Project Estimator">Project Estimator</a> </li>
+        <li> <a  href= "CustomerAccount.aspx" title="Customer Account">Customer Account</a> </li>
+        <li> <a  href= "EmployeeLogin.aspx" title="Customers &amp; Community">Employee Login</a> </li>
+      </ul>
+      </nav>
+    </div>
 
-<li>
-<a  href= "../Pages/Portfolio.html" Title="Portfolio">Portfolio</a>
-</li>
+    <div class = "customer">
 
-<li>
-<a  href= "../Pages/ProjectEstimator.aspx" Title="Project Estimator">Project Estimator</a>
-</li>
-
-<li>
-<a  href= "../Pages/CustomerAccount.aspx" Title="Customer Account">Customer Account</a>
-</li>
-
-<li>
-<a  href= "../Pages/EmployeeLogin.aspx" Title="Customers & Community">Employee Login</a>
-</li>
-
-</ul>
-</div>
-</div>
-</div>
-
-<div class="general-wrapper" id="content-general-wrapper">
-  <div class ="CAcontent-wrapper">
-  <div id="breadcrumb-wrapper">
-  <div id="breadcrumb"> Featured Projects  </div>
-</div>
- <div id="CustomerLogin-wrapper">
- <div id= "Content-Left"> <h1>  </h1>
- </div>
-   <div id="Center-content">
-     <div id="Inner-Content">
-   <div id = "Cust-login">
-   <h1>Customer Login</h1>
-  <p> please enter your credentials below </p>
+    <h1>Customer Login</h1>
+    <p> please enter your credentials below</p>
    </div>   
   
-</div>
-</div>
- <div id= "right-content"> <h1>  </h1>
- </div>
- 
+
 
 <div class ="spacer" style="height:40px;"> </div>
-</div>
-
-
-<div id ="footer-wrapper" class="footer-wrapper">
-<div id ="footer-menu-wrapper">
-<a href="../Pages/Sitemap.html" class="footer-link" id="site-map-link">Site Map</a>
-<a href="../Pages/Contact.html" class="footer-link" id="contact-link">Contact</a>
-</div>
-<div id ="footer-about-events-wrapper">
-<div class="expandable-div expandable-div-footer"> 
-<a href ="../Pages/AboutUs.html" class="aboutus-button">About Us
-</a>
-</div>
-<div class="expandable-div expandable-div-footer"> 
-<a href ="#" class="aboutus-button"> 
-</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+ <footer>
+      <div class="footer-right"> <a href="SiteMap.html">Site Map</a>  &nbsp;&copy;<p>2013 WaterWorks Pool Construction</p> </div>
+      <div class="footer-left"><a href ="AboutUs.html">About Us</a> <a href="Contact.html">Contact</a></div>
+ </footer>
 
 </body>
 </html>
