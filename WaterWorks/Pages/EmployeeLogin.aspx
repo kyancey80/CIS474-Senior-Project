@@ -3,59 +3,48 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-</head>
+<head>
 <link rel="stylesheet" type="text/css" href="../Styles/Master.css"/>
+<link rel="stylesheet" type="text/css" href="../Styles/Master.css"/>
+<script src="../Scripts/jquery-2.0.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".logo").click(function () {
+            window.location = $(this).find("a").attr("href");
+            return false;
+        });
+
+    });
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 </head>
 
-<body id="body">
+<body>
+
     <form id="form1" runat="server">
-<div class = "general-wrapper">
-<div id = "header-wrapper" class="nocontent">
-<div id = "header-logo-container"> <a href= "../Pages/HomePage.html" title="HomePage" id="ww-logo" style="display: block;"></a></div>
-<div id = "menu-container">
-<div id ="search-wrapper">
-<div id ="search-left">
-</div>
-<input type = "text" name="c" id="search-field" value autocomplete="off" style = "width:43px;"> 
-<div id = "search-right">
-</div>
-</div>
-<ul id = "main-menu" class ="black-menu" style="min-height: 0px; height: 12px;">
-
-<li style"width: 73px;">
-<a  href= "../Pages/HomePage.html" Title="Home">Home</a>
-</li>
-
-<li>
-<a  href= "../Pages/Portfolio.html" Title="Portfolio">Portfolio</a>
-</li>
-
-<li>
-<a  href= "../Pages/ProjectEstimator.aspx" Title="Project Estimator">Project Estimator</a>
-</li>
-
-<li>
-<a  href= "../Pages/CustomerAccount.aspx" Title="Customer Account">Customer Account</a>
-</li>
-
-<li>
-<a  href= "../Pages/EmployeeLogin.aspx" Title="Employee Login">Employee Login</a>
-</li>
-
-</ul>
-</div>
-</div>
-</div>
-
-<div class="general-wrapper" id="content-general-wrapper">
-  <div class ="Empcontent-wrapper">
-  <div id="breadcrumb-wrapper">
-  <div id="breadcrumb"> Featured Projects  </div>
-</div>
- <div id="Employee-wrapper">
- <div id= "EmpContent-Left"> <h1>  </h1>
-     <h3>
-         Please Upload Photo</h3>
+<div class="logo"><a href="HomePage.html"></a></div>
+ <div class="main-nav">
+      <div class="search">
+        <form action = "/Search" method="get">
+          <input type = "text" placeholder="Search..." autocomplete="off" />
+        </form>
+      </div>
+      <nav class="main-menu">
+      <ul>
+        <li> <a  href= "HomePage.html" title="Home">Home</a> </li>
+        <li> <a  href= "Portfolio.html" title="Portfolio">Portfolio</a> </li>
+        <li> <a  href= "ProjectEstimator.aspx" title="Project Estimator">Project Estimator</a> </li>
+        <li> <a  href= "CustomerAccount.aspx" title="Customer Account">Customer Account</a> </li>
+        <li> <a  href= "EmployeeLogin.aspx" title="Customers &amp; Community">Employee Login</a> </li>
+      </ul>
+      </nav>
+    </div>
+    
+    <div class = "photo">
+     <h1>
+         Please Upload Photo</h1>
      <div>
          File:
          <input id="myFile" runat="server" type="file" />
@@ -66,11 +55,11 @@
          <asp:Image ID="Pic" runat="server" height="65px" width="56px" />
          <asp:Image ID="FacePic" runat="server" Height="65px" />
      </div>
-     <p>  </p>
- </div>
-   <div id="EmpMiddle-Wrapper">
-     <div id="Emp-Content">
-   <div id = "Emp-login">
+
+     </div>
+     
+    <div class = "login">
+
    <h1>Employee Login</h1>
   <p> Please enter your Login Credentials Below</p>
        <p> &nbsp;</p>
@@ -78,45 +67,18 @@
        <asp:Login ID="Login1" runat="server" BackColor="White" BorderColor="#1888C8" 
            BorderPadding="5" BorderStyle="Dotted" BorderWidth="2px" 
            DestinationPageUrl="~/Pages/SecurityLevel1.aspx" DisplayRememberMe="False" 
-           Enabled="False" EnableTheming="False" style="margin-left: 12px" 
+           Enabled="False" EnableTheming="False" style="margin: 3% auto 3% auto" 
            TitleText="" Width="316px">
        </asp:Login>
 
-   </div>   
-  
-</div>
-</div>
- <div id= "Emp-right"> <h1>  </h1>
- </div>
- 
+    </div>
 
+   
 <div class ="spacer" style="height:40px;"> </div>
-</div>
-
-
-<div id ="footer-wrapper" class="footer-wrapper">
-<div id ="footer-menu-wrapper">
-<a href="../Pages/Sitemap.html" class="footer-link" id="site-map-link">Site Map</a>
-<a href="../Pages/Contact.html" class="footer-link" id="contact-link">Contact</a>
-</div>
-<div id ="footer-about-events-wrapper">
-<div class="expandable-div expandable-div-footer"> 
-<a href ="../Pages/AboutUs.html" class="aboutus-button">About Us
-</a>
-</div>
-<div class="expandable-div expandable-div-footer"> 
-<a href ="#" class="aboutus-button"> 
-</a>
-</div>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+ <footer>
+      <div class="footer-right"> <a href="SiteMap.html">Site Map</a>  &nbsp;&copy;<p>2013 WaterWorks Pool Construction</p> </div>
+      <div class="footer-left"><a href ="AboutUs.html">About Us</a> <a href="Contact.html">Contact</a></div>
+ </footer>
 
     </form>
 
